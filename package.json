@@ -1,0 +1,28 @@
+{
+  "name": "alexander-proxy",
+  "version": "1.0.0",
+  "description": "sdc proxy server",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pley-SDC/alexander-proxy.git"
+  },
+  "author": "alexander wiederin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pley-SDC/alexander-proxy/issues"
+  },
+  "homepage": "https://github.com/Pley-SDC/alexander-proxy#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "newrelic": "^4.11.0",
+    "path": "^0.12.7"
+  }
+}
