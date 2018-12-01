@@ -2,11 +2,11 @@ const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
 const axios = require('axios');
-// require('newrelic');
+require('newrelic');
 const bodyParser = require('body-parser');
 const proxy = require('http-proxy-middleware');
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 const port = process.env.PORT || 1000;
 
 app.use(morgan('dev'));
